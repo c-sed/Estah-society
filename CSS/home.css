@@ -1,0 +1,281 @@
+.program{
+    background-color: #f2f2ee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+.section2{
+    padding: 5% 0;
+    background-color: #f2f2ee;
+    text-align: center;
+}
+.section2 >h1{
+    font-weight: 300 !important;
+}
+.card{
+    padding: 20px;
+    text-align: center;
+}
+.card-title{
+    font-family: 'Montserrat' sans-serif !important;
+    text-transform: uppercase;
+}
+.card-text{
+    font-family: 'Montserrat' sans-serif !important;
+    
+}
+body{
+    font-family:'Montserrat' !important;
+}
+.card:hover{
+    border-bottom: 5px  #7ebf6e solid;
+}
+.card-link{
+    text-decoration: none !important;
+    color: #7ebf6e !important;
+    margin-top: auto !important;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.programIcon >i{
+    border-radius: 50%;
+    border: 3px solid;
+    font-size: 45px;
+    padding: 12px 16px;
+}
+.programIcon{
+    margin-bottom: 25px;
+}
+.section3{   
+    height: 800px;
+    padding-top: 30px;
+    background-image: url("section3.JPG");
+    text-align: center !important;
+    background-size: cover;
+    }
+.section3a{
+    height: 700px;
+        max-width: 600px;
+        margin-top: 55px;
+        margin-left: 100px;
+        padding: 50px 60px;
+        align-self: center;
+        align-content: center;
+        background-color: #f2f2ee;
+    }
+    .p-34{
+        font-size: 34px;
+        font-weight: 500;
+    }
+    .image4{
+         width: 200px;
+         height: 27.2px;
+         margin-top: 13px;
+    }
+    .list-item{
+        list-style: none;
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 23px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        color: #2c2c2c;
+        font-size: 20px;
+        line-height: 18px;
+        font-weight: 300;
+    }
+    .section4{
+        background-color: #f2f2ee;
+        text-align: center;
+        padding: 3% 0;
+    }
+    .section5{
+        height: 800px;
+        background-image: url("section5 (2).JPG") ;
+        text-align: center !important;
+        background-size: cover;
+    }
+    .section5a{
+       
+        height:100%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .subsection4{
+     
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        max-width: 300px;
+        margin-left: 240px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        justify-content: center;
+        background-image: linear-gradient(
+    180deg
+    , #7ebf6e, #7ebf6e);
+    }
+    .text{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: auto;
+        flex: 1 0 auto;
+        text-align: center;
+    }
+    .p-50{
+        font-size: 50px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+    .p-20{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #2c2c2c;
+        padding: 50px;
+        color: white;
+    }
+    .fu{
+        font-size: 35px !important;
+        margin-right: 15px;
+        color: white;
+        text-decoration: none;
+    }
+    .fab:hover{
+        color: #7ebf6e;
+    }
+    .fas:hover{
+        color: #7ebf6e;
+    }
+    .pages{
+        justify-content: space-evenly;
+    }
+    .button{
+        border: 2px #7ebf6e solid;
+        padding: 10px;
+        border-radius: 8px;
+        color: #f2f2ee;
+        background-color: #2c2c2c;
+        margin-top: 15px;
+    }
+    .button:hover{
+        color: #7ebf6e;
+    }
+    .p22{
+        margin-right: 25px;
+      }
+      .bird{
+        width: 600px;
+        height: 300px;
+        border: 1px solid;
+        margin: auto;
+        background-image: url("https://ching-panmei.github.io/Hornbill/hornbill-head.jpg");
+        background-size: 100% 100%;
+     }
+     .umbrella{
+       width: 600px;
+        height: 300px;
+        border: 1px solid;
+        margin: auto;
+        background-image: url("https://ching-panmei.github.io/Hornbill/girl-umbrella.png");
+        background-size: 100% 100%;
+     }
+     .carousel{
+         height: 700px;
+       text-align: center;
+     }
+     .test_image{
+         height: 700px;
+         width: 100%;
+         
+     }
+     .logo-images{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .logo-images >img{
+        width: 200px;
+        margin: 25px;
+    }
+.footer-btn{
+    text-decoration: none;
+    color: white;
+}
+.footer-btn:hover{
+    color: #7ebf6e;
+}
+.carousel-item{
+    padding: 0;
+}
+@media (max-width:700px) {
+    .carousel{
+        height: 400px
+    }
+    .test_image{
+        height: 400px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .section3{
+        padding-top: 0;
+    }
+    .section3a{
+        height: 100%;
+        padding: 25px 10px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .section4{
+        height: auto;
+        padding: 15% 0;
+    }
+    .logo-images{
+        width: 100%;
+        justify-content: center;
+    }
+    .logo-images>img{
+        width: 100px;
+    }
+    .subsection4{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .pages{
+        margin-top: 40px;
+        margin-bottom: 25px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .follow{
+        text-align: center;
+    }
+    .follow >h2{
+        margin-bottom: 25px !important;
+    }
+    .p22{
+        margin-right: 0;
+    }
+}

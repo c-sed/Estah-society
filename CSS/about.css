@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+}
+.section1{
+    background-image: url("About-top.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+ background-image: cross-fade(50%);
+}
+.section1a{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.section1b{
+    max-width: 500px;
+    margin-left: 50px;
+}
+.section1b >h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 0 0 15px;
+    font-weight: 400;
+   text-align: center;
+}
+.section1b >p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 ;
+    text-align: justify;
+}
+.section2{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 125px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 600px;
+}
+.section2b{
+    max-width: 550px;
+    filter: grayscale(50%);
+  
+   
+}
+.section2a{
+    max-width: 550px;
+}
+.section2a >h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 0 0 15px;
+    font-weight: 400;
+   text-align: center;
+}
+.section2a >p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 ;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.section2a >ul >li{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 5px;
+    text-align: justify;
+
+}
+.section3{
+    background-color: #EEEEEE;
+    padding-bottom: 1.5%;
+}
+.section4{
+    padding: 25px 0 20px;
+}
+.section4a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 0 0 15px;
+    font-weight: 400;
+   text-align: center;
+}
+.section4b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section4c{
+    width: 300px;
+    margin-top: 50px;
+}
+.section4b >h2{
+    margin-bottom: 15px;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+.section4b >h4{
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+.section4b >p{
+    margin: 15px 0 25px ;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.section4d{
+    max-width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+    
+}
+.section4e{
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+    padding: 15px 2px;
+    border: 3px #EEEEEE solid;
+    margin: 25px 1% 25px 0;
+}
+.section4e >img{
+    width: 300px;
+    filter: grayscale(50%);
+}
+.section4e >h3{
+    margin: 15px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    text-transform: uppercase; 
+}
+.section4e >p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Roboto'; 
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2c2c2c;
+    padding: 50px;
+    color: white;
+    font-family: 'Montserrat';
+}
+.fu{
+    font-size: 35px !important;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+.fa:hover{
+    color: #7ebf6e;
+}
+.pages{
+    justify-content: space-evenly;
+}
+.button{
+    border: 2px #7ebf6e solid;
+    padding: 10px;
+    border-radius: 8px;
+    color: #f2f2ee;
+    background-color: #2c2c2c;
+    margin-top: 15px;
+}
+.button:hover{
+    color: #7ebf6e;
+}
+.p22{
+    margin-right: 25px;
+  }
+ .h2{
+     font-size: 2rem;
+     font-family: 'Montserrat';
+     margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+ }
+ .footer-btn{
+    text-decoration: none;
+    color: white;
+}
+.footer-btn:hover{
+    color: #7ebf6e;
+}
+@media (max-width:700px) {
+    .section1{
+        height: auto;
+        
+    }
+    .section2b{
+        max-width: 100%;
+        height: auto !important;
+    }
+    .section2{
+        flex-direction: column;
+        height: auto;
+        padding-top: 35px;
+        text-align: center;
+    }
+    .section2a>h1{
+        font-size: 45px;
+    }
+    .section2a >p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .section2b{
+        margin-left: 0 !important;
+        margin-top: 25px;
+        
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    .section1a{
+        flex-direction: column;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+    .section1b{
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+    .section1b >h1{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+    .section1b >p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .section2ab{
+        flex-direction: column-reverse;
+    }
+    .section2a>ul>li{
+        text-align: left;
+    }
+    .section4a {
+        font-size: 45px;
+    }
+    .section4c{
+        width: 200px;
+    }
+    .section4b{
+        max-width: 300px;
+    }
+    .section4b >h2{
+        font-size: 36px;
+        margin-top: 25px;
+    }
+    .section4b >h4{
+        font-size: 26px;
+    }
+    .section4b >p{
+        text-align: justify;
+    }
+    .section4e >img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .section4e{
+        max-width: 250px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .section4e>h3{
+        font-size: 20px;
+    }
+    .section4e >p{
+        font-size: 16px;
+    }
+    .pages{
+        margin-top: 40px;
+        margin-bottom: 25px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .follow{
+        text-align: center;
+    }
+    .follow >h2{
+        margin-bottom: 25px !important;
+    }
+    .p22{
+        margin-right: 0;
+    }
+
+}

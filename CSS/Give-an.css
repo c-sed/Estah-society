@@ -1,0 +1,75 @@
+.main-give{
+    background: #6190E8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 1% 0 5%;
+}
+.head-give{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.head-give>img{
+    width: 400px;
+}
+.head-give1{
+    margin-top: 25px;
+    text-align: center;
+}
+.p-80{
+    font-size: 150px;
+    font-weight: bold;
+    line-height: 175px;
+    margin-bottom: 0;
+}
+.p-50{
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 80px;
+}
+.head-give2{
+    display: flex;
+    justify-content: center;
+    margin-right: 125px;
+}
+.btn-dark{
+font-size: 18px !important;
+}
+.section1{
+    background-color: #FFFFFF;
+    padding: 2% 0 5%;
+}
+.section1a{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.p-37{
+    font-size: 7.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 7.6rem;
+    
+}
+.p-27{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 5.1rem;
+}
+.card-text{
+    text-transform: uppercase;
+    margin-top: 5px;
+    text-align: justify;
+}
+.card{
+    padding: 1%;
+}
